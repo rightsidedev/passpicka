@@ -42,7 +42,7 @@ The password management application will be useful for any MacOS user who would 
 
 It should also be noted that this application has been written as a college assignment, with a remit of developing a basic terminal application to develop knowledge of coding and development practices. It may not therefore reflect best password management practice.
 
-##Features
+## Features
 ### 1. Main Menu - Application Control System
 
 The password application management system is run at the command line in the Terminal app. When initiated, it first checks that the password file exists. If it is found, the main menu is shown, allowing the user to select an action from:
@@ -93,7 +93,7 @@ Generating the new password is also the same process used in update password, as
 
 Deleting an existing password completely reuses existing functionality. Initially requesting the password name and finding the password in the password file. If the password is found, the password file is backed up. Once a backup has been successfully created, the password is deleted from the main password file. User messages are displayed at all key steps as per previous processes.
 
-##User Interaction and Experience
+## User Interaction and Experience
 
 The user will understand the initial application installation process, through the implementation and user guide. This will detail installation instructions and how to start the application step by step.
 
@@ -102,11 +102,11 @@ The features themselves are self explanatory once the application is started:
 - User messages are displayed on the screen at each stage, so that the user understands the process. More specific information on using each feature, is described in the Features section of this document. 
 - Similarly error handling is explained in the  Features section. 
 
-##Control Flow Diagram
+## Control Flow Diagram
 
 Note that in the flow diagram, process boxes are reused across functions. For example the "copy to clipboard" and the "backup/archive password file" is the same function used by all modules. They have been grouped by module for simplicity. 
 
-(./passwordapp.svg)
+![Control Flow Diagram](passwordapp.svg)
 
 ##Implementation Plan
 
@@ -139,13 +139,13 @@ Priority: (H) High; (M) Medium; (L) Low
 
 Note: Two status reports will be produced during the course of this project. They can be found in the GitHub repository for this project in: development-log.md
 
-###Overall Project Plan in Trello
+### Overall Project Plan in Trello
 
-(./trelloplan.png)
+![Trello Project Plan](trelloplan.png)
 
 #### Individual Task Breakdown for "generate NEW password module"
 
-(./trelloplan-deets.png)
+![Trello Task Breakdown](trelloplan-deets.png)
 
 ## Help File
 
@@ -167,10 +167,6 @@ This password amangement application is written and tested on MacOS and requires
 
 4. The program is now ready to run using thew following command:
    .main_menu
-
-#Application Process Flow
-
-(./passwordapp.svg)
 
 ## Reference
 
