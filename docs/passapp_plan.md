@@ -1,14 +1,9 @@
-# Password Management Terminal Application
-
-
-
-# Software Development Plan
+## Software Development Plan for
+# Password Management Terminal Application: Passpicka
 
 #### Author: Mandy Kopelke, Final Draft: 10th August 2019
 
-
-
-### Statement of Purpose and Scope
+## Statement of Purpose and Scope
 
 In an age where data breaches are an everyday occurrence, it is the responsibilty of every person who does anything online, to understand the implications of password security.  By implementing secure password practices, people will have the best opportunity to protect themselves and their personal data. 
 
@@ -106,9 +101,10 @@ The features themselves are self explanatory once the application is started:
 
 Note that in the flow diagram, process boxes are reused across functions. For example the "copy to clipboard" and the "backup/archive password file" is the same function used by all modules. They have been grouped by module for simplicity. 
 
+
 ![Control Flow Diagram](passwordapp.svg)
 
-##Implementation Plan
+## Implementation Plan
 
 | Phase          | Task                                                  | Priority* | Deadline |
 | -------------- | ----------------------------------------------------- | --------- | -------- |
@@ -139,19 +135,19 @@ Priority: (H) High; (M) Medium; (L) Low
 
 Note: Two status reports will be produced during the course of this project. They can be found in the GitHub repository for this project in: development-log.md
 
-### Overall Project Plan in Trello
+### 1. Overall Project Plan in Trello
 
 ![Trello Project Plan](trelloplan.png)
 
-#### Individual Task Breakdown for "generate NEW password module"
+### 2. Individual Task Breakdown for "generate NEW password module"
 
 ![Trello Task Breakdown](trelloplan-deets.png)
 
-## Help File
+## Installation Instructions
 
 This password amangement application is written and tested on MacOS and requires access to the terminal application.
 
-1. Copy the main_menu program to the directory required (where you wish to store te application)
+1. Copy the main_menu program to the directory required (where you wish to store the application)
 
 2. Launch the terminal application
 
@@ -165,7 +161,7 @@ This password amangement application is written and tested on MacOS and requires
 
    cd ..
 
-4. The program is now ready to run using thew following command:
+4. The program is now ready to run using the following command:
    .main_menu
 
 ## Reference
